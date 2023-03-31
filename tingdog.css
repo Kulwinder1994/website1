@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+#title {
+  background-color: #fd3d5a;
+  color: #fff;
+  max-height: 650px;
+}
+@media (max-width: 991px) {
+  #title {
+    max-height: 900px;
+    text-align: center;
+  }
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0 0 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+  position: relative;
+  z-index: 2;
+}
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  bottom: 2rem;
+  left: 5rem;
+}
+@media (max-width: 991px) {
+  #image1 {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.info {
+  text-align: center;
+  padding: 4.5%;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+p {
+  color: #8f8f8f;
+}
+.icon {
+  color: #fe7187;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #fd3d5a;
+}
+#testimonials {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: #fd3d5a;
+  color: #fff;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 0 15%;
+}
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#press {
+  background-color: #fd3d5a;
+  text-align: center;
+  padding: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing {
+  padding: 6rem;
+}
+.pricing-col {
+  padding: 3%;
+  text-align: center;
+}
+.first-button {
+  margin-bottom: 5%;
+}
+#cta {
+  background-color: #fd3d5a;
+}
+.down-h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #fff;
+}
+.div1 {
+  text-align: center;
+  padding: 7% 25% 5% 25%;
+}
+.div1 h3 {
+  font-size: 2.5rem;
+}
+
+.div2 {
+  text-align: center;
+  padding: 0 5% 7% 5%;
+}
+#footer {
+  text-align: center;
+}
+.para {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+.every-dog {
+  text-align: center;
+}
+.simple {
+  text-align: center;
+}
